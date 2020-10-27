@@ -34,9 +34,9 @@ class Record_781 {
 	}
 
 	@Test
-	@DisplayName("Record 781: Company is J & B Classical Glass & Mir Co")
+	@DisplayName("Record 781: Company is J & B public classical Glass & Mir Co")
 	void CompanyOfRecord781() {
-		assertEquals("J & B Classical Glass & Mir Co", customers.get(780).getCompany());
+		assertEquals("J & B public classical Glass & Mir Co", customers.get(780).getCompany());
 	}
 
 	@Test

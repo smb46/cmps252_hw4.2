@@ -34,9 +34,9 @@ class Record_3766 {
 	}
 
 	@Test
-	@DisplayName("Record 3766: Company is E & G Classics Inc")
+	@DisplayName("Record 3766: Company is E & G public classics Inc")
 	void CompanyOfRecord3766() {
-		assertEquals("E & G Classics Inc", customers.get(3765).getCompany());
+		assertEquals("E & G public classics Inc", customers.get(3765).getCompany());
 	}
 
 	@Test

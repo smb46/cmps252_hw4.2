@@ -34,9 +34,9 @@ class Record_1055 {
 	}
 
 	@Test
-	@DisplayName("Record 1055: Company is Classified Exchange")
+	@DisplayName("Record 1055: Company is public classified Exchange")
 	void CompanyOfRecord1055() {
-		assertEquals("Classified Exchange", customers.get(1054).getCompany());
+		assertEquals("public classified Exchange", customers.get(1054).getCompany());
 	}
 
 	@Test

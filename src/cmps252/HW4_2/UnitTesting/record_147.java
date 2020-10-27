@@ -34,9 +34,9 @@ class Record_147 {
 	}
 
 	@Test
-	@DisplayName("Record 147: Company is A Classical Record")
+	@DisplayName("Record 147: Company is A public classical Record")
 	void CompanyOfRecord147() {
-		assertEquals("A Classical Record", customers.get(146).getCompany());
+		assertEquals("A public classical Record", customers.get(146).getCompany());
 	}
 
 	@Test

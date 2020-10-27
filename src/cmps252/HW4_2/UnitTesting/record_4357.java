@@ -34,9 +34,9 @@ class Record_4357 {
 	}
 
 	@Test
-	@DisplayName("Record 4357: Company is Best Western Classic Inn")
+	@DisplayName("Record 4357: Company is Best Western public classic Inn")
 	void CompanyOfRecord4357() {
-		assertEquals("Best Western Classic Inn", customers.get(4356).getCompany());
+		assertEquals("Best Western public classic Inn", customers.get(4356).getCompany());
 	}
 
 	@Test

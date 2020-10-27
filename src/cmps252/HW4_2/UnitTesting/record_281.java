@@ -34,9 +34,9 @@ class Record_281 {
 	}
 
 	@Test
-	@DisplayName("Record 281: Company is Classen Tag Agency")
+	@DisplayName("Record 281: Company is public classen Tag Agency")
 	void CompanyOfRecord281() {
-		assertEquals("Classen Tag Agency", customers.get(280).getCompany());
+		assertEquals("public classen Tag Agency", customers.get(280).getCompany());
 	}
 
 	@Test
